@@ -32,7 +32,7 @@ void HelloWorldAudioProcessorEditor::paint (Graphics& g)
 
     g.setColour (Colours::green);
     g.setFont (32.0f);
-    g.drawFittedText ("Hello World!", getLocalBounds(), Justification::centred, 1);
+    g.drawFittedText ("Hello World!", getLocalBounds(), Justification::centredLeft, 1);
 }
 
 void HelloWorldAudioProcessorEditor::resized()
