@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="pyqtkJ" name="HelloWorld" projectType="audioplug" jucerVersion="5.4.7">
+<JUCERPROJECT id="pyqtkJ" name="HelloWorld" projectType="audioplug" displaySplashScreen="1"
+              jucerFormatVersion="1">
   <MAINGROUP id="rwtymt" name="HelloWorld">
     <GROUP id="{291225EB-2F03-64D1-3AE1-2A45258ED5CA}" name="Source">
       <FILE id="pzkAnr" name="PluginProcessor.cpp" compile="1" resource="0"
