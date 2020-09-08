@@ -30,9 +30,9 @@ void HelloWorldAudioProcessorEditor::paint (Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
-    g.setColour (Colours::red);
-    g.setFont (15.0f);
-    g.drawFittedText ("Hello World!", getLocalBounds(), Justification::centred, 1);
+    g.setColour (Colours::green);
+    g.setFont (32.0f);
+    g.drawFittedText ("Hello World!", getLocalBounds(), Justification::centredLeft, 1);
 }
 
 void HelloWorldAudioProcessorEditor::resized()
